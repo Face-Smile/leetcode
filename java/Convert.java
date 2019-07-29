@@ -51,20 +51,26 @@ class Convert {
         int span = 2 * numRows - 2;
         for(int i = 1; i <= numRows; i ++){
             int pan = span - (i - 1) * 2;
+            if(pan <= 0) pan = span;
             int per_index = i - 1;
             while(per_index < s.length()){
+                System.out.println(new String(chars) + ", per_index: " + per_index + ", index: " + index + ", pan: " + pan);
+
                 chars[index++] = s.charAt(per_index);
-                if(pan < span && per_index + pan< s.length()){
+                if(pan < span && per_index + pan < s.length()){
                     chars[index++] = s.charAt(per_index + pan);
                 }
                 per_index += span;
             }
         }
-        return chars.toString();
+        return new String(chars);
     }
 
     public static void main(String args[]){
         String s = "LEETCODEISHIRING";
-        System.out.println(new Convert().convert(s, 3));
+        System.out.println(s.length());
+        System.out.println(new Convert().convert(s, 4));
+//        System.out.println("LCIRETOESIIGEDHN");
+        System.out.println("LDREOEIIECIHNTSG");
     }
 }
