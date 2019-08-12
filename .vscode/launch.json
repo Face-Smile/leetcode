@@ -1,0 +1,75 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "leetcode_b49c8075"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FourSum",
+            "request": "launch",
+            "mainClass": "FourSum",
+            "projectName": "leetcode_b49c8075"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LetterCombinations",
+            "request": "launch",
+            "mainClass": "LetterCombinations",
+            "projectName": "leetcode_b49c8075"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LongestCommonPrefix",
+            "request": "launch",
+            "mainClass": "LongestCommonPrefix",
+            "projectName": "leetcode_b49c8075"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RomanToInt",
+            "request": "launch",
+            "mainClass": "RomanToInt",
+            "projectName": "leetcode_b49c8075"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IntToRoman",
+            "request": "launch",
+            "mainClass": "IntToRoman",
+            "projectName": "leetcode_b49c8075"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxArea",
+            "request": "launch",
+            "mainClass": "MaxArea",
+            "projectName": "leetcode_b49c8075"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IsMatch",
+            "request": "launch",
+            "mainClass": "IsMatch"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IsPalindrome",
+            "request": "launch",
+            "mainClass": "IsPalindrome"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
