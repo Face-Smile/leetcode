@@ -16,6 +16,9 @@ class ListNode {
 class Solution_2 {
     public static void main(String args[]){
         Solution_2 s = new Solution_2();
+        ListNode l1 = new ListNode(1);
+        ListNode l2 = new ListNode(2);
+        s.addTwoNumbers(l1, l2);
 
     }
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
